@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sn.smart</groupId>
+	<artifactId>smart-framework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>机智的框架</name>
+	<description>整合常用服务端框架</description>
+
+	<repositories>
+		<repository>
+			<id>alimaven</id>
+			<name>aliyun maven</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
+	<modules>
+		<module>smart-core</module>
+		<module>smart-app-core</module>
+		<module>smart-app-parent</module>
+		<module>smart-web-core</module>
+		<module>smart-web-parent</module>
+	</modules>
+
+</project>
