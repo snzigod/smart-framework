@@ -17,12 +17,11 @@
 	</repositories>
 
 	<modules>
-		<module>smart-core</module>
-		<module>smart-app-core</module>
-		<module>smart-app-parent</module>
-		<module>smart-web-core</module>
-		<module>smart-web-parent</module>
 		<module>smart-utils</module>
+		<module>smart-core</module>
+		<module>smart-service-core</module>
+		<module>smart-app-core</module>
+		<module>smart-web-core</module>
 	</modules>
 
 </project>
