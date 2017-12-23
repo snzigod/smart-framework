@@ -9,4 +9,5 @@
 	<artifactId>smart-web-core</artifactId>
 	<name>智者之心</name>
 	<description>web常用工具。</description>
+	<packaging>pom</packaging>
 </project>
