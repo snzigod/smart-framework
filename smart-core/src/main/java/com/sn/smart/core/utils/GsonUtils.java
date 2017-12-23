@@ -13,7 +13,7 @@ import com.google.gson.stream.JsonWriter;
 /**
  * gson工具升级版
  * 
- * @author gxzhou2
+ * @author snzigod@hotmail.com
  *
  */
 public class GsonUtils {

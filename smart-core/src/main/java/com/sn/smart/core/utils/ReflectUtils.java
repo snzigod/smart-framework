@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 反射工具
  * 
- * @author gxzhou2
+ * @author snzigod@hotmail.com
  *
  */
 public class ReflectUtils {
