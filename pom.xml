@@ -22,6 +22,7 @@
 		<module>smart-app-parent</module>
 		<module>smart-web-core</module>
 		<module>smart-web-parent</module>
+		<module>smart-utils</module>
 	</modules>
 
 </project>
