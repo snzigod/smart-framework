@@ -20,11 +20,11 @@
 		<module>smart-utils</module>
 		<module>smart-core</module>
 		<module>smart-service-core</module>
-		<module>smart-service-parent</module>
+		
 		<module>smart-app-core</module>
-		<module>smart-app-parent</module>
+		
 		<module>smart-web-core</module>
-		<module>smart-web-parent</module>
+		
 	</modules>
 
 </project>
