@@ -9,4 +9,42 @@
 	<artifactId>smart-app-core</artifactId>
 	<name>智者之心</name>
 	<description>app常用工具</description>
+
+	<properties>
+		<jersey2.version>2.6</jersey2.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.sn.smart</groupId>
+			<artifactId>smart-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sn.smart</groupId>
+			<artifactId>smart-utils</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!--jersey -->
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet</artifactId>
+			<version>${jersey2.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish.jersey.ext</groupId>
+			<!-- 官方只提供了对 Spring 3 的扩展:jersey-spring3.jar -->
+			<artifactId>jersey-spring3</artifactId>
+			<version>${jersey2.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+	</dependencies>
 </project>
